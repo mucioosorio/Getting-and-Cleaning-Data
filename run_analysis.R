@@ -35,7 +35,7 @@ features_with_mean_sd <- grep("-mean\\(\\)|-std\\(\\)", features[, 2])
 xn <- x[,features_with_mean_sd]
 names(xn) <- features[features_with_mean_sd, 2]
 
-############
+#############
 # 3. Uses descriptive activity names to name the activities in the data set.
 ############
 
