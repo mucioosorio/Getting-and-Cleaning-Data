@@ -1,1 +1,1 @@
-in windows operating systema the original data filesmust be in .../Documents/samsung
+in windows operating system the original data files must be in .../Documents/samsung
