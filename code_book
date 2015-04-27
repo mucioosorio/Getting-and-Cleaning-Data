@@ -1,0 +1,21 @@
+
+ the path in my pc is C:/Users/Mucio/Documents/samsung
+
+ 1. Merges the x train and x test to create one data set named x.
+ The "x" data frame has a size 10299 * 561 .
+
+
+ 2. From "features" we extracts only the measurements names related with mean and standard deviation for each measurement.
+ In "features" are all the variable names for x data set. In column V1 are the id numbers for variable name and
+ the column 2 contains the variable names text. The size is 561 * 2
+
+3. The "xn" data set contains only the data set with the variables related with mean and sd for each measurement fron ths data set x.
+ the "xn" size is 10299 * 66. Also the name of the variable is added.
+
+3. from the activities names were labeled the activities in the data set xn. and was named a_cleaned
+
+4 Finally the data set cleaned file (space separed) wa created
+write.table(x_cleaned, "x_cleaned.txt",row.names=F)
+
+5. In the last step was Created a second, independent tidy data set with the average of each variable for each activity and each subject."
+the data set was named x_cleaned_average and also was created the space separated file txt "2x_cleaned.txt"
